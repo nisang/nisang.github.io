@@ -31,6 +31,15 @@ table tr td {
     <td >毕业</td>
     <td >2013-06</td>
   </tr>
+  <tr>
+    <td >手机号码</td>
+    <td >17092559737</td>
+  </tr>
+  <tr>
+    <td >邮箱</td>
+    <td >q826739324@126.com</td>
+  </tr>
+
 </table>
 
 
@@ -123,7 +132,8 @@ table tr td {
 >>>价格建议非常重要，如果能给予用户的二手车价格建议，并因之提高二手车交易量，如同Airbnb预测房屋价格并推荐给用户并因之提高交易量，提高营收。
 
 ## 七：备注
-github主页：[https://github.com/nisang](https://github.com/nisang "https://github.com/nisang")
+* github主页：[https://github.com/nisang](https://github.com/nisang "https://github.com/nisang")
+* 简历地址：[https://nisang.github.io/](https://nisang.github.io/ "个人简历")
 
 	
 
