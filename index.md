@@ -1,5 +1,5 @@
 #<center>**个人简历**
-<img align="right" style="width:200px;height:200px;padding-top:63px;" src="./photo.png">
+<img align="right" style="width:200px;height:200px;padding-top:63px;" src="./photo.jpg">
 ## 一：个人信息
 <style>
 table {
