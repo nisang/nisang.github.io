@@ -1,5 +1,5 @@
 #<center>**个人简历**
-<img align="right" style="width:200px;height:200px;padding-top:63px;" src="./photo.png">
+<img align="right" style="width:200px;height:200px;padding-top:63px;" src="./photo.jpg">
 ## 一：个人信息
 <style>
 table {
@@ -53,7 +53,33 @@ table tr td {
 
 >> 对于新技术的学习，是热情的。docker技术是通过自己学习，并利用在工作利用。
 
-## 三：公司工作
+## 三：知识结构
+
+* java
+>>  jvm 并发/多线程编程
+
+* java EE
+>> servlet jsp c标签
+> 框架： Spring,Spring Boot,Struts2,Hibernate,Mybatis 
+> 分布式服务框架：dubbo
+> 数据库：mysql redis mongodb
+> 应用服务器：tomcat jetty
+> 消息队列:mq
+> 搜索引擎：elasticsearch
+
+* 前端
+>> html/css html5 css3 js jquery
+
+* 运维
+>> nginx,tomcat Coreos docker linux sh脚本 centos ubuntu
+
+* 职业目标
+
+>> 技术变化太快，后端走向Serverless模式，提升效率。接口规范使用restful，运行系统采用docker系统，后端系统走向spring boot。走向真正的开发即运维的编程人员。
+
+
+
+## 四：公司工作
 * **[车城网络科技有限公司](http://www.che.com "车城网络科技有限公司")**
 	>工作时间：2016-06至2017-09
 	>>职位：java开发工程师，项目负责人，产品负责人，项目经理
@@ -62,7 +88,7 @@ table tr td {
 
 
 * **[好宣（上海）科技有限公司](http://www.haoxuantech.cn "好宣（上海）科技有限公司")**
-	>工作时间：2015-10至2015-06
+	>工作时间：2015-10至2016-06
 	>>职位：公司技术合伙人，同时担任公司技术负责人等多种角色。
 	
 	>>工作内容：在该公司内，主要承担技术支撑并架构后台框架，需求分析，需求详细设计及分析，需求可行性论证，软件测试，公司运维支持。
@@ -82,7 +108,7 @@ table tr td {
 	>
 	>>工作内容:使用java语言开发公安系统业务，水电煤系统等业务，并在现有的平台上编写业务。主要参与对公安系统的某些业务的升级，在现有的业务基础上准对某些地区的水电煤支付业务的编写。
 	>
-## 四：项目经验
+## 五：项目经验
 * **6.车城快车(2017-01到2017-09)**
 	>项目介绍：
 	>>车城快车是一款专业打车应用
@@ -99,7 +125,7 @@ table tr td {
 
 	> 个人职责：
 	>> 构建框架，编写接口
-* **4.爱车估价(2017-06到2017-09)**
+* **4.爱车估价(2016-06到2016-09)**
 	>项目介绍：
 	>>爱车估价是一款定位为二手车资源估价的手机app。
 
@@ -149,26 +175,6 @@ table tr td {
 * **0.公安系统的业务及在现有模式下编写特定地区的水电煤计费系统。**
 	>工具使用：开发工具：Eclipse ee ，应用服务器：Tomcat
 
-## 五：知识结构
-
-* java EE
-> servlet jsp c标签
-> 框架：Struts2 Spring Hibernate Mybatis SpringMVC 
-> 分布式服务框架：dubbo的使用
-> 数据库：mysql oracle redis(用作缓存使用，如登录session缓存,用户基本数据缓存) mongodb
-> 应用服务器：tomcat jetty
-
-* 前端
->> html/css html5 css3 js jquery zepto
-
-* 运维
->>阿里云（负载均衡，RDS，云主机Coreos，Redis） 
-> nginx,tomcat Coreos docker linux sh脚本 centos ubuntu
-
-* 职业目标
-> 技术变化太快，后端走向Serverless模式，提升效率。接口规范使用restful，运行系统采用docker系统，后端系统走向spring boot。走向真正的开发即运维的编程人员。
-
-
 ## 六：多余的话
 
 >对于从事软件行业这些年，所积累的基本逻辑与思路
@@ -182,10 +188,8 @@ table tr td {
 >>对于一个项目的考虑：
 >>>不能实验性的技术引入项目中，否则将会把项目推向绝地，应该采用成熟的技术。
 
->>对于团队：
->>>高效率，少bug，少加班是一个团队最好的状态。
-
 ## 七：备注
+
 * github主页：[https://github.com/nisang](https://github.com/nisang "https://github.com/nisang")
 
 
