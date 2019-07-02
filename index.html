@@ -289,7 +289,7 @@ img {
   max-width: 100%
 }
 </style>
-<base href='file:\\\D:\github\nisang.github.io\'/>
+
 </head>
 <body>
 <h1><center><strong>个人简历</strong></h1>
@@ -345,35 +345,29 @@ table tr td {
 </blockquote>
 <h2>三：知识结构</h2>
 <ul>
-<li>java</li>
-</ul>
-<blockquote>
-<blockquote>
-<p>jvm 并发/多线程编程</p>
-</blockquote>
-</blockquote>
-<ul>
 <li>java EE</li>
 </ul>
 <blockquote>
-<blockquote>
-<p>servlet jsp c标签
-框架： Spring,Spring Boot,Struts2,Hibernate,Mybatis 
-分布式服务框架：dubbo
-数据库：mysql redis mongodb
-应用服务器：tomcat jetty
-消息队列:mq
-搜索引擎：elasticsearch</p>
-</blockquote>
+<p>基础servlet技术</p>
+<p>架构： Spring MVC,Spring Boot,Mybatis</p>
+<p>分布式服务框架：dubbo</p>
+<p>jvm 并发/多线程编程</p>
+<p>数据库：mysql redis mongodb</p>
+<p>应用服务器：tomcat jetty</p>
+<p>消息队列:mq</p>
+<p>搜索引擎：elasticsearch</p>
+<p>微服务,restful</p>
 </blockquote>
 <ul>
-<li>
-java源码与spring
-<ul>
-<li></li>
+<li>运维（一直）</li>
 </ul>
-</li>
-<li>前端</li>
+<blockquote>
+<blockquote>
+<p>docker,nginx,tomcat Coreos docker sh linux  centos ubuntu</p>
+</blockquote>
+</blockquote>
+<ul>
+<li>前端（前期）</li>
 </ul>
 <blockquote>
 <blockquote>
@@ -381,19 +375,11 @@ java源码与spring
 </blockquote>
 </blockquote>
 <ul>
-<li>运维</li>
-</ul>
-<blockquote>
-<blockquote>
-<p>nginx,tomcat Coreos docker linux sh脚本 centos ubuntu</p>
-</blockquote>
-</blockquote>
-<ul>
 <li>职业目标</li>
 </ul>
 <blockquote>
 <blockquote>
-<p>技术变化太快，后端走向Serverless模式，提升效率。接口规范使用restful，运行系统采用docker系统，后端系统走向spring boot。走向真正的开发即运维的编程人员。</p>
+<p>Java专家</p>
 </blockquote>
 </blockquote>
 <h2>四：公司工作</h2>
@@ -403,8 +389,8 @@ java源码与spring
 <blockquote>
 <p>工作时间：2018-03至 至今</p>
 <blockquote>
-<p>职位：java开发工程师，项目负责人，产品负责人，项目经理</p>
-<p>工作内容：开发并商城，营销平台（拼团，砍价，秒杀等活动类型），运维发布（docker+阿里云复杂均衡+云主机）管理</p>
+<p>职位：java开发工程师</p>
+<p>工作内容：需求边界确定，开发并商城，营销平台（拼团，砍价，秒杀等活动类型），运维发布（docker+阿里云复杂均衡+云主机）管理</p>
 </blockquote>
 </blockquote>
 </li>
@@ -413,7 +399,7 @@ java源码与spring
 <blockquote>
 <p>工作时间：2016-06至2017-09</p>
 <blockquote>
-<p>职位：java开发工程师，项目负责人，产品负责人，项目经理</p>
+<p>职位：java开发工程师，项目负责人，产品负责人</p>
 <p>工作内容：在车城的这一年里，主要开发的项目有爱车估价，一点汽车，车城快车项目，辅助完成车助手等项目。主要负责车城快车的开发与迭代开发。</p>
 </blockquote>
 </blockquote>
@@ -441,6 +427,44 @@ java源码与spring
 </ul>
 <h2>五：项目经验</h2>
 <ul>
+<li>
+<p><strong>8.恒美吧营销工具(2018-12到2019-06)</strong></p>
+<blockquote>
+<p>项目介绍：</p>
+<blockquote>
+<p>恒美吧是专注于微信的营销工具（拼团，砍价，秒杀等）</p>
+</blockquote>
+<p>个人职责：</p>
+<blockquote>
+<p>设计业务模型，编码，升级架构，注重业务的可变更性及可维护性，剥离变动的业务与不变的业务模型，在一般的三层controller,service,dao层新增manage层，同时统一pojo层，ao，vo分离。在业务模型建立之初考虑业务的可变性，同时冗余部分业务数据，降低关联查询的编码量。在此项目中升级服务端运行时jre11，以提高并发量</p>
+</blockquote>
+<p>项目：</p>
+<blockquote>
+<p>后端系统全面采用spring boot2.1.5，mybatis3.5.1,dubbo,数据库连接池采用druid,json工具采用fastjson，其他工具guava,分页采用pagehelper,角色权限框架采用shiro，缓存采用redis，主项目分为三个子项目，api层（controller,config,core），common层（service,dao），third(第三方调用)层。使用标准的restful风格api。服务器发布采用docker形式，docker镜像采用adoptopenjdk/openjdk11，</p>
+</blockquote>
+<p>业务：</p>
+<blockquote>
+<p>分离不变的与变化的，在变化上进行迭代，不变的尽量保持不变</p>
+</blockquote>
+</blockquote>
+</li>
+<li>
+<p><strong>7.恒美商城(2018-03到2018-10)</strong></p>
+<blockquote>
+<p>项目介绍：</p>
+<blockquote>
+<p>恒美商城是集成在公司核心app上的独立商城</p>
+</blockquote>
+<p>个人职责：</p>
+<blockquote>
+<p>根据业务，设计表，编写业务，在设计购物车，订单，计算价格，会员折扣，优惠券中承担主要职责</p>
+</blockquote>
+<p>项目：</p>
+<blockquote>
+<p>后端系统全面采用spring boot，运行系统采用docker，具体代码请参考<strong>架构系统</strong>。</p>
+</blockquote>
+</blockquote>
+</li>
 <li>
 <strong>6.车城快车(2017-01到2017-09)</strong>
 <blockquote>
@@ -539,20 +563,30 @@ java源码与spring
 <blockquote>
 <p>对于从事软件行业这些年，所积累的基本逻辑与思路</p>
 <blockquote>
+<p>持续学习:</p>
+<blockquote>
+<p>保持热情</p>
+</blockquote>
 <p>对于问题：</p>
 <blockquote>
-<p>当发现问题,一则详细描述问题，二当定位问题，三需快速解决问题，后而测试重现与否。</p>
+<p>当发现问题,一则详细描述问题，二当定位问题，三需快速解决问题，后而测试重现与否</p>
 </blockquote>
 <p>对于逻辑与流程问题：</p>
 <blockquote>
-<p>1.大流程，小逻辑。优先以大流程走业务，详细后当以小逻辑走业务。</p>
+<p>1.大流程，小逻辑。优先以大流程走业务，详细后当以小逻辑走业务</p>
 </blockquote>
 <p>对于一个项目的考虑：</p>
 <blockquote>
-<p>不能实验性的技术引入项目中，否则将会把项目推向绝地，应该采用成熟的技术。</p>
+<p>不能实验性的技术引入项目中，否则将会把项目推向绝地，应该采用成熟的技术</p>
 </blockquote>
-<p>对于需求，应该采用最简单，最小化的方式去做，并做到可维护性，可变更性，复杂的需求应该分块实现，
-变动的代码与不变动的代码逻辑应尽量分离</p>
+<p>对于需求:</p>
+<blockquote>
+<p>应该采用最简单，最小化的方式去做，并做到可维护性，可变更性，复杂的需求应该分块实现</p>
+</blockquote>
+<p>复杂的简单化：</p>
+<blockquote>
+<p>大问题化成多个小问题，变动的代码与不变动的代码逻辑应尽量分离</p>
+</blockquote>
 </blockquote>
 </blockquote>
 <h2>七：备注</h2>
